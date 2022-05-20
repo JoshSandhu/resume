@@ -26,6 +26,10 @@
     background-color: blue;
 }
 
+.bg-color-personal-info {
+    background: #f4f4f4;
+}
+
 /* ------------------------------------ Special paddings/margins/text */
 
 h1,
@@ -180,7 +184,7 @@ footer {
 }
 
 .cv-pdf i:hover {
-    color: #e84610;
+    color: orange;
 }
 
 .social-links {
@@ -204,9 +208,20 @@ footer {
 }
 
 .social-links li a i:hover {
-    background: #e84610;
+    background: orange;
 }
 
 #footer-details {
     padding: 20px;
+}
+
+/* ------------------------------------- Three reasons */
+
+.three-reasons-icon {
+    font-size: 26px;
+    color: orange;
+}
+
+.three-reasons-heading {
+    margin-bottom: 15px;
 }
